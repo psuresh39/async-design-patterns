@@ -1,0 +1,7 @@
+aiozmq==0.7.1
+appdirs==1.4.0
+packaging==16.8
+pyparsing==2.1.10
+pyzmq==16.0.2
+six==1.10.0
+zmq==0.0.0
