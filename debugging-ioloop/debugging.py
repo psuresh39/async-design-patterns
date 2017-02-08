@@ -57,7 +57,8 @@ if args.verbose:
 LOG.info('entering event loop')
 event_loop.run_until_complete(outer(event_loop))
 
-
+# Output
+# ---------------------------------------------------------------
 # python debugging.py
 #   DEBUG: Using selector: KqueueSelector
 #    INFO: entering event loop
