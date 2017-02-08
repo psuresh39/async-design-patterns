@@ -20,7 +20,7 @@ def coro2():
     return future
 
 loop = asyncio.get_event_loop()
-# gather collects all coroutine futures and returns them as a list
+# gather aggregates all coroutine futures and returns them as a list
 results = loop.run_until_complete(asyncio.gather(
     coro1(1),
     coro1(2),
