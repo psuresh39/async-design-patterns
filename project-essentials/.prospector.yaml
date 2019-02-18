@@ -1,0 +1,36 @@
+doc-warnings: true
+output-format: pylint
+strictness: medium
+test-warnings: true
+ignore-paths:
+    - build/
+    - tests/
+
+dodgy:
+    # Looks at Python code to search for things which look "dodgy"
+    # such as passwords or git conflict artifacts
+    run: true
+frosted:
+    # static analysis
+    run: true
+pep8:
+  # style checking
+  options:
+    max-line-length: 120
+pep257:
+    # docstring checking
+    run: true
+pyflakes:
+    # preferring 'frosted' instead (a fork of)
+    run: false
+pylint:
+    # static analysis
+    run: true
+    options:
+        max-line-length: 120
+pyroma:
+    # checks setup.py
+    run: true
+vulture:
+    # this tool does a good job of finding unused code.
+    run: true

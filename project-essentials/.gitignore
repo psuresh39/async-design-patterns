@@ -1,0 +1,14 @@
+*.pyc
+*.egg-info
+*.cache
+.coverage.*
+.coverage
+.eggs
+.tox
+junit-*.xml
+coverage.xml
+htmlcov
+build
+dist
+_version.py
+

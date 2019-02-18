@@ -1,0 +1,8 @@
+[run]
+source = path
+omit =path/x.py, path/cli.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    pass
